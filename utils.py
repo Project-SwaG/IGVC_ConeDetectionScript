@@ -38,8 +38,8 @@ def Load_Yolo_model():
             pass
 
 
-    yolo = Create_Yolo(input_size=YOLO_INPUT_SIZE, CLASSES=)
-    yolo.load_weights(f"./checkpoints/yolov4_cone_1")
+    yolo = Create_Yolo(input_size=YOLO_INPUT_SIZE, CLASSES="classes.txt")
+    yolo.load_weights(WEIGHTS_FILE)
     return yolo
 
 

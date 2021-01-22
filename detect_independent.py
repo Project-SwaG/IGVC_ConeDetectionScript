@@ -9,7 +9,7 @@ from configs import *
 
 file="5.png"
 image_path = f"./IMAGES/testing/{file}"
-video_path = "./IMAGES/igvc_cone_1.mp4"
+video_path = "/home/aaryaman_bhardwaj/Documents/ML/Yolo-v3/IMAGES/road_cone_1.mp4"
 
 yolo = Load_Yolo_model()
 
